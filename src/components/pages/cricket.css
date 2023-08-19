@@ -1,0 +1,174 @@
+.header{
+    background-color: white;
+    height: 200px;
+    width:1250px;
+    margin:20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 15px 0;
+}
+
+.title{
+    font-size: 30px;
+}
+
+
+.schedule{
+    display: flex;
+    background-color: rgb(143, 54, 54);
+    height: 100px;
+    width:100%;
+    margin:10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    justify-content:center;
+    padding: 25px 0;
+}
+.did{
+    display:flex;
+    flex-direction: column;
+
+}
+.h3{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.match{
+    background-color: white;
+    height: 100px;
+    width:1250px;
+    margin:20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    justify-content:center;
+    padding: 25px 0;
+
+}
+
+.fix{
+    text-align: center;
+}
+
+.piss{
+    padding-left: 50px;
+    display:flex;
+}
+
+.imag1{
+    width:50px;
+    margin-left: 15px; 
+    
+}
+
+.vs1{
+    padding-top: 0px;
+    padding-left:105px;
+    font-size: 30px;
+
+}
+.vs2{
+    padding-top: 0px;
+    padding-left:65px;
+    font-size: 30px;
+
+}
+.vs3{
+    padding-top: 0px;
+    padding-left:36px;
+    font-size: 30px;
+
+}
+
+.vn1{
+    padding-top: 10px;
+    padding-left: 170px;
+}
+.vn2{
+    padding-top: 10px;
+    padding-left: 170px;
+}
+.vn3{
+    padding-top: 10px;
+    padding-left: 185px;
+}
+
+.dt1{
+    padding-top: 10px;
+    padding-left: 100px;
+}
+.dt2{
+    padding-top: 10px;
+    padding-left: 75px;
+}
+.dt3{
+    padding-top: 10px;
+    padding-left: 80px;
+}
+
+
+.legends{
+    width: 310px;
+    margin-left: 460px;
+}
+
+
+
+.imag2{
+    width:50px;
+    margin-left: 20px; 
+    
+}
+
+.imag3{
+    width:50px;
+    margin-left: 15px; 
+    
+}
+.imag4{
+    width:50px;
+    margin-left: 20px; 
+    
+}
+.imag5{
+    width:50px;
+    margin-left: 15px; 
+    
+}
+.imag6{
+    width:40px;
+    margin-left: 20px; 
+    
+}
+
+.team1{
+    padding-top: 10px;
+    padding-left:20px;
+}
+
+.team2{
+    padding-top: 10px;
+    padding-left:100px;
+}
+
+.team3{
+    padding-top: 10px;
+    padding-left:20px;
+}
+.team4{
+    padding-top: 10px;
+    padding-left:60px;
+}
+.team5{
+    padding-top: 10px;
+    padding-left:20px;
+}
+.team6{
+    padding-top: 10px;
+    padding-left:75px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
