@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react'
+import "./all.css"
+import Ts from './components/finalpages/ts'
+import Hk from './components/finalpages/hk'
+import Fb from './components/finalpages/fb'
+import BB from './components/finalpages/BB'
+import Ck from './components/finalpages/ck'
+import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+        <div>
+            <Routes>
+                <Route path='/' element={<Fb />} />
+                <Route path='/hk' element={<Hk />} />
+                <Route path='/ts' element={<Ts />} />
+                <Route path='/ck' element={<Ck />} />
+                <Route path='/BB' element={<BB />} />
+            </Routes>       
+        </div>
+    </BrowserRouter>
+  )
 }
 
 export default App;

@@ -1,0 +1,112 @@
+.sidebar {
+  width: 15%;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.icon {
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.icon:hover {
+  background-color: #ddd;
+}
+
+.football {
+  background-color: #4caf50;
+  color: white;
+}
+
+.basketball {
+  background-color: #3498db;
+  color: white;
+}
+
+.cricket{
+  background-color: rgb(214, 88, 88);
+  color:white;
+}
+.tennis{
+  background-color: #ea6ce1;
+  color:white;
+}
+
+.baseball{
+  background-color: #d8bf5d;
+  color:white;
+}
+
+.hockey{
+  background-color: #f99172;
+  color: white;
+}
+
+.boxing{
+  background-color: aquamarine;
+  color:white;
+}
+
+.chess{
+  background-color: #48d380;
+  color:white;
+}
+
+.ath{
+  background-color: #42bee4;
+  color:white;
+}
+
+.kab{
+  background-color: #de733a;
+  color: white;
+}
+
+.kho{
+  background-color: #dc65e9;
+  color: white;
+}
+
+.cycle{
+  background-color: #e43693;
+  color: white;
+}
+
+.hand{
+  background-color: #ceaf32;
+  color: white;
+}
+
+.table{
+  background-color: #ed3d3d;
+  color: white;
+}
+
+.tai{
+  background-color: #42e470;
+  color: white;
+}
+
+.bad{
+  background-color: #e442c6;
+  color: white;
+}
+.weight{
+  background-color: #9042e4;
+  color: white;
+}
+.vol{
+  background-color: #e46a42;
+  color:white;
+
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}

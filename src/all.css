@@ -1,0 +1,10 @@
+.relative{
+    position:relative;
+    left:30%;
+    background-color: yellow;
+    width:50%;
+}
+.content{
+    display:flex;
+    background-color: rgb(173, 199, 199);
+}
